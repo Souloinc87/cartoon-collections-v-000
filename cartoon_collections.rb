@@ -1,8 +1,8 @@
-def roll_call_dwarves9(array)# code an argument here
+def roll_call_dwarves(array)# code an argument here
   # Your code here
   collection = []
   array.each do |dwarfs|
-    collection << dwarfs.length 
+    collection << dwarfs.length
     puts collection 
   end
 end
