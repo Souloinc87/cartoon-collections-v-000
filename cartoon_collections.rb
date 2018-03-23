@@ -3,7 +3,7 @@ def roll_call_dwarves(array)# code an argument here
   collection = []
   array.each_with_index do |dwarfs, index|
     collection << puts "#{index}. #{dwarfs}"
-  end
+  end 
   collection
 end
 
