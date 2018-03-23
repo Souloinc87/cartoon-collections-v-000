@@ -1,5 +1,10 @@
 def roll_call_dwarves9(array)# code an argument here
   # Your code here
+  collection = []
+  array.each do |dwarfs|
+    collection << dwarfs.length 
+    puts collection 
+  end
 end
 
 def summon_captain_planet# code an argument here
