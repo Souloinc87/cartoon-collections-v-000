@@ -3,8 +3,8 @@ def roll_call_dwarves(array)# code an argument here
   collection = []
   array.each do |dwarfs|
     collection << dwarfs.length
-    puts collection 
   end
+  puts collection 
 end
 
 def summon_captain_planet# code an argument here
