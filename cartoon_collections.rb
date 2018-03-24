@@ -1,8 +1,10 @@
 def roll_call_dwarves(array)# code an argument here
   # Your code here
   collection = []
+  if array.length >= 1
   array.each_with_index do |dwar, index|
-    collection << dwar.length
+    collection << dwar
+   end 
   end
  collection
 end
