@@ -1,14 +1,9 @@
 def roll_call_dwarves(array)# code an argument here
-  # Your code here
-  collection = []
-  if array.length >= 1
-  array.each_with_index do |dwar, index|
-    collection << dwar
-   end 
-  end
- collection
-end
-
+  d = 0
+  while array.length <= 7
+    puts "#{d + 1}. #{array}"
+    d += 1
+end 
 def summon_captain_planet# code an argument here
   # Your code here
 end
