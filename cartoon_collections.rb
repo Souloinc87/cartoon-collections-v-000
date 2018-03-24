@@ -1,10 +1,10 @@
 def roll_call_dwarves(array)# code an argument here
   d = 0
-  while array.length <= 7
+  while array.length < 7
     puts "#{d + 1}. #{array}"
-    d += 1 
+    d += 1
  end
-end 
+end
 
 
 def summon_captain_planet# code an argument here
