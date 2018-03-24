@@ -2,7 +2,8 @@ def roll_call_dwarves(array)# code an argument here
   # Your code here
   collection = []
   array.each_with_index do |dwar, index|
-    collection <<  puts "#{index + 1}. #{dwar}"
+    ind = index + 1
+    collection <<  puts ind. "#{dwar}"
   end
  collection
 end
